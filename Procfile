@@ -1,1 +1,1 @@
-web: gunicorn myProjectVeterinaria.wsgi
+web: python manage.py collectstatic && gunicorn myProjectVeterinaria.wsgi
