@@ -140,3 +140,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'myAppGestion/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+CSRF_TRUSTED_ORIGINS = ['http://*','https://djangorailwayveterinaria-production.up.railway.app']
