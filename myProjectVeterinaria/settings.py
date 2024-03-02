@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'myProjectVeterinaria.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'HOST': 'localhost',
-        'PORT': 5432,
-        'NAME': 'Veterinaria',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': 31242,
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'julianalzate06', 
+        'PASSWORD': '6EDAFb45B6g4e44AG5D5fd3EEaGFEE5g', 
     }
 }
 
